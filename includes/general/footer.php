@@ -1,6 +1,6 @@
 
   <footer>
-    @2024
+    &copy; <?php echo date("Y");?>
   </footer>
 </body>
 </html>
