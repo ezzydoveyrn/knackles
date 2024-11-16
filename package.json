@@ -1,0 +1,11 @@
+{
+  "name": "knackles",
+  "version": "1.0.0",
+  "description": "knackles is a posting platform developed by neptune connect cyber",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ezekiel Mokaya Ogana",
+  "license": "ISC"
+}
