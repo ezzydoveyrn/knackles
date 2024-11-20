@@ -1,0 +1,36 @@
+main{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+main form{
+  width: 450px;
+  height: auto;
+  padding: 40px 20px 20px 20px;
+  background-color: aliceblue;
+}
+main form label{
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 5px 0px 5px 0px;
+}
+main form input{
+  display: block;
+  padding: 5px 10px;
+  width: 100%;
+}
+main form #button{
+  border: none;
+  background-color: aqua;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+main form p{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
