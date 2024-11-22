@@ -16,7 +16,8 @@
     </div>
     <div class="userSettings">
       <button onclick="closeSettings()" class="closeSett">X</button>
-      <div class="profile"></div>
+      <div class="profile">
+      </div>
       <div class="infoMat">
         <a href="#">edit profile</a>
         <form action="welcome.php" method="post">

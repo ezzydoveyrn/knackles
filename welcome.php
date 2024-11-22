@@ -13,6 +13,7 @@
   <title>user logged in</title>
 </head>
 <body>
+  <!-----------------------------Session Section-------------------------------------->
   <?php
     $email = $_SESSION["email"];
     
@@ -21,8 +22,17 @@
       $result =  mysqli_query($conn, $sql);
       if(mysqli_num_rows($result) > 0){
         $row = mysqli_fetch_assoc($result);
-        echo $row["name"]; 
+        $author = $row["name"]; 
       }
+  ?>
+  <!----------------------------------- POSTS SECTION ---------------------------------->
+
+
+  <?php
+    echo"
+      <h1>Welcome to knackles</h1>
+    ";
+    require_once("post.php");
   ?>
 
   <?php
